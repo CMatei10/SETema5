@@ -9,6 +9,7 @@ public class Birmaneza implements IAnimal{
 
     @Override
     public void speak() {
+
         System.out.println("The little Birmaneza cat says \"Miaw\"");
     }
 }
