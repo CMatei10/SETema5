@@ -12,9 +12,9 @@ public class CatFactory  implements IAnimalFactory{
 
     @Override
     public IAnimal getAnimal(String animal) {
-        if ( animal.equals("bir") )
+        if ( animal.equalsIgnoreCase("bir") )
             return new Birmaneza();
-        else if ( animal.equals("sia") )
+        else if ( animal.equalsIgnoreCase("sia") )
             return new Siameza();
 
         return null;
