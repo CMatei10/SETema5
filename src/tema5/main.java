@@ -17,9 +17,13 @@ public class main {
 
         IAnimalFactory animalFactory1 = abstractFactory.returnFactory("Dog");
         IAnimal dog1 = animalFactory1.getAnimal("fight");
+        dog1.speak();
         IAnimal dog2 = animalFactory1.getAnimal("friend");
+        dog2.speak();
         IAnimalFactory animalFactory2 = abstractFactory.returnFactory("Cat");
         IAnimal cat1 = animalFactory2.getAnimal("bir");
+        cat1.speak();
         IAnimal cat2 = animalFactory2.getAnimal("sia");
+        cat2.speak();
     }
 }
