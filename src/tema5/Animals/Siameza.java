@@ -10,6 +10,5 @@ public class Siameza implements IAnimal {
     @Override
     public void speak() {
         System.out.println("The little Siameza cat says \"What's up, dac?\"");
-        System.out.println("muieee!");
     }
 }
