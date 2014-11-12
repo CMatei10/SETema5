@@ -10,7 +10,6 @@ import tema5.Interfaces.IAnimalFactory;
  */
 public class CatFactory  implements IAnimalFactory{
 
-    @Override
     public IAnimal getAnimal(String animal) {
         if ( animal.equalsIgnoreCase("bir") )
             return new Birmaneza();
